@@ -1,0 +1,13 @@
+.dashboard { padding: 24px 20px; }
+.hero { text-align: center; margin-bottom: 40px; }
+.hero h1 { font-size: 2.2rem; color: var(--primary); margin-bottom: 8px; }
+.hero-sub { color: var(--text-muted); font-size: 1.1rem; }
+.dashboard-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+.balance-card { text-align: center; }
+.balance-amount { font-size: 2rem; font-weight: 700; color: var(--success); margin: 12px 0; }
+.balance-note { font-size: 0.9rem; color: var(--text-muted); }
+.action-card { display: block; transition: transform 0.2s, box-shadow 0.2s; color: inherit; }
+.action-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(13, 71, 161, 0.2); }
+.action-icon { font-size: 2.5rem; display: block; margin-bottom: 12px; }
+.action-card h2 { font-size: 1.25rem; margin-bottom: 8px; color: var(--text); }
+.action-card p { color: var(--text-muted); font-size: 0.95rem; }

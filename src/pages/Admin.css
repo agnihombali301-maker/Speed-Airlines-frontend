@@ -1,0 +1,14 @@
+.admin-page { padding: 24px 20px; }
+.admin-page h1 { margin-bottom: 24px; color: var(--text); }
+.admin-table { overflow-x: auto; }
+.admin-table table { width: 100%; border-collapse: collapse; }
+.admin-table th, .admin-table td { padding: 12px; text-align: left; border-bottom: 1px solid #e0e0e0; }
+.admin-table th { background: var(--bg); font-weight: 600; color: var(--text); }
+.role-badge { padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
+.role-badge.admin { background: #e3f2fd; color: var(--primary); }
+.role-badge.customer { background: #e8f5e9; color: var(--success); }
+.admin-form { margin: 24px 0; }
+.admin-form h2 { margin-bottom: 16px; }
+.form-row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
+.form-row .input-group { flex: 1; min-width: 160px; }
+.status.confirmed { background: #e8f5e9; color: var(--success); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }

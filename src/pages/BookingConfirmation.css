@@ -1,0 +1,11 @@
+.booking-confirmation { padding: 24px 20px; max-width: 560px; margin: 0 auto; }
+.confirmation-card { text-align: center; }
+.confirmation-header { margin-bottom: 32px; }
+.confirmation-icon { display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; background: var(--success); color: white; border-radius: 50%; font-size: 2rem; font-weight: 700; margin-bottom: 16px; }
+.confirmation-header h1 { font-size: 1.75rem; color: var(--text); margin-bottom: 8px; }
+.confirmation-header p { color: var(--text-muted); }
+.confirmation-details { text-align: left; background: var(--bg); border-radius: 12px; padding: 20px; margin-bottom: 24px; }
+.detail-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #e0e0e0; }
+.detail-row:last-child { border-bottom: none; }
+.detail-row.total { font-size: 1.2rem; margin-top: 12px; padding-top: 12px; border-top: 2px solid var(--primary); }
+.confirmation-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }

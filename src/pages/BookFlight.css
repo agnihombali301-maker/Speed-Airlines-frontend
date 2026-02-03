@@ -1,0 +1,15 @@
+.book-flight { padding: 24px 20px; }
+.book-flight h1 { margin-bottom: 20px; color: var(--text); }
+.balance-bar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.balance-bar .ok { color: var(--success); }
+.balance-bar .insufficient { color: var(--danger); }
+.book-form { display: flex; flex-direction: column; gap: 24px; }
+.book-form h2 { font-size: 1.2rem; margin-bottom: 16px; color: var(--text); }
+.hint { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+.seat-map { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; max-width: 360px; }
+.seat { padding: 10px; border: 2px solid #e0e0e0; border-radius: 8px; background: white; font-size: 0.9rem; }
+.seat:hover { border-color: var(--primary); }
+.seat.selected { background: var(--primary); color: white; border-color: var(--primary); }
+.btn-lg { padding: 16px 32px; font-size: 1.1rem; margin-top: 8px; }
+.btn-disabled { opacity: 0.65; cursor: not-allowed; pointer-events: auto; }
+.btn-disabled:hover { transform: none; box-shadow: none; }

@@ -1,0 +1,17 @@
+.search-flights { padding: 24px 20px; }
+.search-flights h1 { margin-bottom: 24px; color: var(--text); }
+.search-form { margin-bottom: 32px; }
+.search-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; }
+.search-row .input-group { flex: 1; min-width: 140px; }
+.search-row .btn { align-self: flex-end; }
+.results { margin-top: 24px; }
+.flight-list { display: flex; flex-direction: column; gap: 16px; }
+.flight-card { display: grid; grid-template-columns: auto 1fr auto auto auto; gap: 16px; align-items: center; flex-wrap: wrap; }
+.flight-header { display: flex; flex-direction: column; gap: 4px; }
+.flight-number { font-weight: 700; color: var(--primary); }
+.flight-route { font-size: 1.1rem; }
+.flight-times, .flight-prices { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; color: var(--text-muted); }
+.flight-seats { font-size: 0.85rem; color: var(--text-muted); }
+@media (max-width: 768px) {
+  .flight-card { grid-template-columns: 1fr; }
+}
